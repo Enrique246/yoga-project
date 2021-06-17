@@ -28,18 +28,9 @@ Classes.init(
         allowNull:false
     },
     available:{
-        type:DataTypes.STRING,
+        type:DataTypes.INTEGER,
         allowNull:false,
-        validate:{
-            isIn:[['yes','no']],
-        }
-    },
-    scheduled:{
-        type:DataTypes.STRING,
-        allowNull:false,
-        validate:{
-            isIn:[['yes','no']],
-        }
+        defaultValue: 5,
     },
   },
   {

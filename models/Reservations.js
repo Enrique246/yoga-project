@@ -14,12 +14,18 @@ Reservation.init(
     user_id: {
       type: DataTypes.INTEGER,
       allowNull: false,
-      autoIncrement:true,
+      references: {
+        model: 'Users',
+        key: 'id',
+      },
     },
     class_id: {
         type: DataTypes.INTEGER,
       allowNull: false,
-      autoIncrement:true,
+      references: {
+        model: 'Classes',
+        key: 'id',
+      },
     }
 },
     {
