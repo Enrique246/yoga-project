@@ -1,3 +1,3 @@
-const Example = require('./Example');
+const Classes = require('./Classes');
 
-module.exports = { Example };
+module.exports = { Classes };
