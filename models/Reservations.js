@@ -37,3 +37,5 @@ Reservation.init(
       }
     
     );
+
+    module.exports = Reservation;
