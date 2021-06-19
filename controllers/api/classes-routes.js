@@ -1,12 +1,12 @@
 const router = require('express').Router();
 const { Classes,Reservation } = require('../../models');
-// const withAuth = require('../utils/auth');
+const withAuth = require('../../utils/auth');
 
 // The `/api/classes` endpoint
 
 // Excersie 23 API -13-ORM-
 //withAuth
-router.get('/classes',async (req, res) => {
+router.get('/classes',withAuth,async (req, res) => {
   // find all classes
   try{
     const classesData = await Classes.findAll({

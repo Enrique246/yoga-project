@@ -16,7 +16,7 @@ const userData=[
     gender: "Male",
     password:12345,
     
-  }
+  },
   
 ]
 
