@@ -15,7 +15,7 @@ Reservation.init(
       type: DataTypes.INTEGER,
       allowNull: false,
       references: {
-        model: 'Users',
+        model: 'users',
         key: 'id',
       },
     },
@@ -23,7 +23,7 @@ Reservation.init(
         type: DataTypes.INTEGER,
       allowNull: false,
       references: {
-        model: 'Classes',
+        model: 'classes',
         key: 'id',
       },
     }
