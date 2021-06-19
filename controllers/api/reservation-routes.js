@@ -1,6 +1,6 @@
 const router = require('express').Router();
 const { Reservation,User,Classes } = require('../../models');
-// const withAuth = require('../utils/auth');
+const withAuth = require('../../utils/auth');
 
 router.get('/reservations', async (req, res) => {
     // find all reservations
@@ -15,7 +15,7 @@ router.get('/reservations', async (req, res) => {
     }
   });
 //withAuth
-  router.post('/reservations', async (req, res) => {
+  router.post('/reservations', withAuth, async (req, res) => {
     try {
       const newReservation = await Reservation.create({
         ...req.body,
@@ -32,7 +32,7 @@ router.get('/reservations', async (req, res) => {
     }
   });
   //withAuth
-  router.delete('/:id', async (req, res) => {
+  router.delete('/:id', withAuth, async (req, res) => {
     try {
       const reservationData = await Reservation.destroy({
         where: {
