@@ -12,11 +12,15 @@ const seedDatabase = async () => {
   console.log(userData)
 
   await Classes.bulkCreate(classesData);
-  await User.bulkCreate(userData);
   await Reservation.bulkCreate(reservationData);
+  await User.bulkCreate(userData, {
+    individualHooks: true,
+    returning: true,
+  });
   
 
   process.exit(0);
 };
+
 
 seedDatabase();
