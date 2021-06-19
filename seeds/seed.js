@@ -7,7 +7,9 @@ const reservationData = require('./reservations-seeds')
 
 
 const seedDatabase = async () => {
+  console.log(userData)
   await sequelize.sync({ force: true });
+  console.log(userData)
 
   await Classes.bulkCreate(classesData);
   await User.bulkCreate(userData);

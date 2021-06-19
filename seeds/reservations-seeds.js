@@ -8,11 +8,11 @@ const reservationData=[
   {
     id:2,
     user_id:2,
-    class_name: 2,
+    class_id: 2,
     
   }
   
 ]
 
 const seedReservation = ()=> Reservation.bulkCreate(reservationData);
-module.exports=seedReservation;
+module.exports=reservationData;
