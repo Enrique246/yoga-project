@@ -12,6 +12,10 @@
   "author": "",
   "license": "ISC",
   "dependencies": {
+<<<<<<< HEAD
+=======
+    "bcrypt": "^5.0.0",
+>>>>>>> 60784369ac8e21c54297d4b5a46acaa4bd29c2ad
     "connect-session-sequelize": "^7.1.1",
     "dotenv": "^8.2.0",
     "express": "^4.17.1",

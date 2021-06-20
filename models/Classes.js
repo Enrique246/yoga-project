@@ -20,7 +20,7 @@ Classes.init(
       allowNull: false,
     },
     time: {
-        type: DataTypes.DATE,
+        type: DataTypes.TIME,
       allowNull: false,
     },
     coach:{
