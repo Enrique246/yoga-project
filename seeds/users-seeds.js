@@ -6,7 +6,7 @@ const userData=[
     email: "yes@gmail.com",
     age: 29,
     gender: "Female",
-    password:12345,
+    password: "12345",
   },
   {
     id:2,
@@ -14,8 +14,7 @@ const userData=[
     email: "no@gmail.com",
     age: 30,
     gender: "Male",
-    password:12345,
-    
+    password: "12345",
   },
   
 ]

@@ -1,5 +1,5 @@
 const sequelize = require('../config/connection');
-const { Classes,User,Reservation } = require('../models');
+const { Classes,User, Reservation} = require('../models');
 
 const classesData = require('./classes-seeds');
 const userData = require('./users-seeds')
@@ -12,12 +12,12 @@ const seedDatabase = async () => {
   console.log(userData)
 
   await Classes.bulkCreate(classesData);
-  await Reservation.bulkCreate(reservationData);
   await User.bulkCreate(userData, {
     individualHooks: true,
     returning: true,
   });
-  
+  await Reservation.bulkCreate(reservationData);
+  //solved
 
   process.exit(0);
 };
