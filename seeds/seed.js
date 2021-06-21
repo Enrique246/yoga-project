@@ -17,7 +17,7 @@ const seedDatabase = async () => {
     returning: true,
   });
   await Reservation.bulkCreate(reservationData);
-  
+  //solved
 
   process.exit(0);
 };
