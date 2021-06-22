@@ -6,7 +6,7 @@ const withAuth = require('../../utils/auth');
 
 // Excersie 23 API -13-ORM-
 //withAuth
-router.get('/classes',withAuth,async (req, res) => {
+router.get('/',withAuth,async (req, res) => {
   // find all classes
   try{
     const classesData = await Classes.findAll({
