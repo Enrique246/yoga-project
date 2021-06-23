@@ -5,7 +5,7 @@ const userRoutes = require('./user-routes');
 
 
 router.use('/classes', classesRoutes);
-router.use('/reservations', reservationRoutes);
+router.use('/book', reservationRoutes);
 router.use('/user-routes', userRoutes);
 
 module.exports = router;
