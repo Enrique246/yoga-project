@@ -14,7 +14,25 @@ router.get('/', async (req, res) => {
 });
 router.get("/book", async (req, res) => {
   try {
-    res.render("book", {
+    const schedule = [
+      {
+        day: "Monday",
+        teacher: "Andres",
+        availableSpots: ["spot one", "spot two"],
+      },
+      {
+        day: "Tuesday",
+        teacher: "Andres",
+        availableSpots: ["spot one", "spot two"],
+      },
+      {
+        day: "Wednesday",
+        teacher: "Andres",
+        availableSpots: ["spot one", "spot two"],
+      },
+    ];
+
+    res.render("book", {schedule,
       loggedIn: req.session.logged_in,
       book: true
     })
