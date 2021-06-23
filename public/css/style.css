@@ -1,6 +1,6 @@
 /* STYLES FOR THE HOME WEBPAGE HANDLEBAR*/
  * {
-  background-color: #5D6C89;
+  /* background-color: #5D6C89; */
 }
 h2 {
     padding-left: 16%;
@@ -20,3 +20,9 @@ label {
     position: relative;
     left: 20%;
 }
+nav {
+    background-color: #E0C3FC;
+}
+.content-box {
+    background-color: #e3dddf;
+}  
