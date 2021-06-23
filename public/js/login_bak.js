@@ -1,7 +1,3 @@
-// const { default: axios } = require("axios");
-// import axios from 'axios';
-// const axios = require('axios').default;
-
 const loginFormHandler = async (event) => {
     // Stop the browser from submitting the form so we can do so with JavaScript
     event.preventDefault();
@@ -12,13 +8,14 @@ const loginFormHandler = async (event) => {
   
     if (email && password) {
       // Send the e-mail and password to the server
-      const response = await axios.post('/api/user-routes/login', {
-        email, password
-      })
-      console.log(response);
+      const response = await fetch('/api/user-routes/login', {
+        method: 'POST',
+        body: JSON.stringify({ email, password }),
+        headers: { 'Content-Type': 'application/json' },
+      });
   
-      if (response.status == 200) {
-        document.location.replace('/profile');
+      if (response.ok) {
+        document.location.replace('/');
       } else {
         alert('Failed to log in');
       }
@@ -35,8 +32,13 @@ const loginFormHandler = async (event) => {
     const password = document.querySelector('#password-signup').value.trim();
   
     if (name && email && age && gender && password) {
-      const response = await axios.post('/api/user-routes/', {name, email, age, gender, password})
-      if (response.status == 200) {
+      const response = await fetch('/api/user-routes/', {
+        method: 'POST',
+        body: JSON.stringify({ name, email, age, gender, password }),
+        headers: { 'Content-Type': 'application/json' },
+      });
+  
+      if (response.ok) {
         document.location.replace('/profile');
       } else {
         alert(response.statusText);
