@@ -13,7 +13,10 @@
             <p class="mb-1">Coach: {{class.coach}}</p>
 
             <small>Spots available: {{class.available}}</small> &nbsp;
-        <button type="button" class="btn btn-primary button col-8">Book Class</button>
+            <div class="btn-group" role="group" aria-label="Basic example" id={{class.id}}>
+            <button id="bpush" type="button" class="btn btn-primary">Book Class</button>
+        </div>
+        {{!-- <button type="button" class="btn btn-primary button col-8">Book Class</button> --}}
         </a>
         
         <br>
@@ -24,3 +27,5 @@
         {{/each}}
     </div>
 </main>
+
+<script src="./js/book.js"></script>
