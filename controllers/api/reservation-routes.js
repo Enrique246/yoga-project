@@ -19,14 +19,14 @@ router.get('/reservations', async (req, res) => {
     try {
       const newReservation = await Reservation.create({
         ...req.body,
-        user_id: req.session.user_id,
-        class_id
+        user_id: req.session.user_id
       });
-      const reservations = newReservation.map((newReservation) => newReservation.get({ plain: true }));
+      console.log(newReservation);
+      // const reservations = newReservation.map((newReservation) => newReservation.get({ plain: true }));
   
-      res.render('book',{
-        reservations,
-      }); 
+      // res.render('book',{
+      //   reservations,
+      // }); 
       res.status(200).json(newReservation);
     } catch (err) {
       res.status(400).json(err);
