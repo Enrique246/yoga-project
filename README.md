@@ -76,10 +76,10 @@ Distributed under the MIT License. See `LICENSE` for more information.
 <!-- CONTACT -->
 ## Credits and Contact
 
-- Miranda Ramirez - [@twitter_handle](https://twitter.com/twitter_handle) - email
-- Enrique del Castillo - [@twitter_handle](https://twitter.com/twitter_handle) - email
-- Andres Borja - [@twitter_handle](https://twitter.com/twitter_handle) - email
-- Adolfo de Moure - [@twitter_handle](https://twitter.com/twitter_handle) - email
+- Miranda Ramirez - [@GitHub](https://github.com/Mirandarmz) - email: (mailto:fake_miranda@mail.com)
+- Enrique del Castillo - [@GitHub](https://github.com/Enrique246) - email: (mailto:fake_enrique@mail.com)
+- Andres Borja - [@GitHub](https://twitter.com/twitter_handle) - email: (mailto:fake_andres@mail.com)
+- Adolfo de Moure - [@GitHub](https://github.com/ANDRESPLASENCIABORJA) - email: (mailto:fake_adolfo@mail.com)
 
 Project Link: [https://github.com/Enrique246/yoga-project](https://github.com/Enrique246/yoga-project)
 
