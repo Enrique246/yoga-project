@@ -14,9 +14,10 @@
             <small>Spots available: {{class.available}}</small>
             {{!-- <img src="...” class="img-fluid row” alt="..."> --}}
         </a>
-        <div class="btn-group" role="group" aria-label="Basic example">
-            <button type="button" class="btn btn-primary">Book Class</button>
+        <div class="btn-group" role="group" aria-label="Basic example" id={{class.id}}>
+            <button id="bpush" type="button" class="btn btn-primary">Book Class</button>
         </div>
         {{/each}}
     </div>
 </main>
+<script src="./js/book.js"></script>

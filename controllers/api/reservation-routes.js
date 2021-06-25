@@ -20,6 +20,7 @@ router.get('/reservations', async (req, res) => {
       const newReservation = await Reservation.create({
         ...req.body,
         user_id: req.session.user_id,
+        class_id
       });
       const reservations = newReservation.map((newReservation) => newReservation.get({ plain: true }));
   
