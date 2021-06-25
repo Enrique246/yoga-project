@@ -5,7 +5,7 @@ const withAuth = require('../utils/auth');
 router.get('/', async (req, res) => {
   try {
     res.render('homepage', {
-      logged_in: req.session.logged_in,
+      loggedIn: req.session.logged_in,
       home: true
     });
   } catch (err) {
@@ -21,7 +21,7 @@ router.get('/book', async (req, res) => {
     console.log(classes)
     res.render('book', {
       classes,
-      logged_in: req.session.logged_in,
+      loggedIn: req.session.logged_in,
       book: true
     });
   } catch (err) {
@@ -41,7 +41,7 @@ router.get('/profile', withAuth, async (req, res) => {
     console.log(user)
     res.render('profile', {
       ...user,
-      logged_in: true,
+      loggedIn: true,
       profile: true
     });
   } catch (err) {
@@ -55,7 +55,7 @@ router.get('/login', (req, res) => {
   //   return;
   // }
   res.render('login',{
-    logged_in: req.session.logged_in,
+    loggedIn: req.session.logged_in,
     login: true
   });
 });

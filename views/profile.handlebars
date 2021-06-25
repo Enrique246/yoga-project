@@ -18,10 +18,10 @@
         {{!--<img> --}}<h1 class="card-title">Profile</h1>
         <div class="card-body text-body mb-3">
             <div class="mt-4 text-white ml-5">
-                <h3 class="card-text">Name:{{name}}</h3>
-                <h3 class="card-text">Email:{{email}}</h3>
-                <h3 class="card-text">Age:{{age}}</h3>
-                <h3 class="card-text">Gender:{{gender}}</h3>
+                <h3 class="card-text">Name:&nbsp;&nbsp;{{name}}</h3>
+                <h3 class="card-text">Email:&nbsp;&nbsp;{{email}}</h3>
+                <h3 class="card-text">Age:&nbsp;&nbsp;{{age}}</h3>
+                <h3 class="card-text">Gender:&nbsp;&nbsp;{{gender}}</h3>
             </div>
 
         </div>
@@ -32,7 +32,7 @@
             {{#each classes as |class| }}
             <div class="col-10">
             <h3 class="border border-primary pl-4 pt-2 pb-2"> {{class.class_name}}
-                &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<button
+                &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<button
                     class="btn btn-primary" type="button">Cancel</button></h3>
             </div>
             {{/each}}
