@@ -13,7 +13,7 @@ for (let i = 0, l = buttons.length; i < l; i++) {
     console.log("LOLO");
     console.log(classId);
     axios.post('/api/book/reservations', {
-        
+      class_id: (classId)
     });
   })
 }
