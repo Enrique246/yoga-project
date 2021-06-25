@@ -3,21 +3,24 @@
     <h1>Week’s Schedule</h1>
     <div class="list-group">
         {{#each classes as |class|}}
-        <a href="#" class="list-group-item list-group-item-action active" aria-current="true">
+        <a href="#"class="list-group-item list-group-item-action active" aria-current="true">
             <div class="d-flex w-100 justify-content-between">
-                <h5 class="mb-1 table-header">{{class.id}}</h5>
+                <h5 class="mb-1 table-header">{{class.id}}&nbsp;{{class.class_name}}</h5>
             </div>
-            <p class="mb-1">Class type: {{class.class_name}}</p>
+            
             <p class="mb-1">Date: {{class.date}}</p>
             <p class="mb-1">Time: {{class.time}}</p>
             <p class="mb-1">Coach: {{class.coach}}</p>
-            <small>Spots available: {{class.available}}</small>
-            {{!-- <img src="...” class="img-fluid row” alt="..."> --}}
+
+            <small>Spots available: {{class.available}}</small> &nbsp;
+        <button type="button" class="btn btn-primary button col-8">Book Class</button>
         </a>
-        <div class="btn-group" role="group" aria-label="Basic example" id={{class.id}}>
-            <button id="bpush" type="button" class="btn btn-primary">Book Class</button>
-        </div>
+        
+        <br>
+        {{!-- <div class="col-8 text-center bg-white">
+        <button type="button" class="btn btn-primary button">Book Class</button>
+        </div> --}}
+        
         {{/each}}
     </div>
 </main>
-<script src="./js/book.js"></script>
