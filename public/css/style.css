@@ -1,25 +1,25 @@
 /* STYLES FOR THE HOME WEBPAGE HANDLEBAR*/
- * {
+ /* * { */
   /* background-color: #5D6C89; */
-}
-h2 {
+/* } */
+/* h2 {
     padding-left: 16%;
     padding-top: 25%;
     color: #FEB06A;
     font-family: serif;
-}
-.form {
+} */
+/* .form {
     width: 500px;
     margin-left: 15%;
-}
-label {
+} */
+/* label {
     font-family: serif;
     color: #36D6E7;
-}
-.btn {
+} */
+/* .btn {
     position: relative;
     left: 20%;
-}
+} */
 nav {
     background-color: #E0C3FC;
 }
@@ -49,5 +49,18 @@ nav {
     margin-left: 22.5%;
 }
 .table-header {
-    color: #E0C3FC;
+    color: white;
+}
+
+.row {
+    position: relative;
+    left: 6.5%;
+    width: 90%;
+    padding-top: 10%;
+}
+.img-fluid {
+border-radius: 5px;
+}
+h2 {
+    color: rgb(0, 132, 255);
 }
