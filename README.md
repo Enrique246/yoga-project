@@ -1,6 +1,4 @@
-# yoga-studio
-
-[![MIT License][license-shield]][license-url]
+# Yoga-Studio
 
 ## Description
 
