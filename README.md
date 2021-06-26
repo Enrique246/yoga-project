@@ -85,7 +85,9 @@ Distributed under the MIT License. See `LICENSE` for more information.
 - Andres Borja - [@GitHub](https://twitter.com/twitter_handle) - email: (mailto:fake_andres@mail.com)
 - Adolfo de Moure - [@GitHub](https://github.com/ANDRESPLASENCIABORJA) - email: (mailto:fake_adolfo@mail.com)
 
-Project Link: [https://github.com/Enrique246/yoga-project](https://github.com/Enrique246/yoga-project)
+Project Link: 
+* GitHub: [https://github.com/Enrique246/yoga-project](https://github.com/Enrique246/yoga-project)
+* Heroku App: [https://damp-dawn-28515.herokuapp.com/] (https://damp-dawn-28515.herokuapp.com/)
 
 
 
