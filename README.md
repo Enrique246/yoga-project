@@ -17,7 +17,7 @@ We want to provide yogis with an easy and accesible application for searching an
 <!-- ABOUT THE PROJECT -->
 ## About The Project
 
-[![Product Name Screen Shot][product-screenshot]](https://example.com)
+![](home-GIF.gif)
 
 
 ## Built With
@@ -59,10 +59,14 @@ To get a local copy up and running follow these simple steps.
 
 <!-- USAGE EXAMPLES -->
 ## Usage
+* To create an account or login, just click on Log In link and fill the required fields.
+![](login_ss.png)
 
-Use this space to show useful examples of how a project can be used. Additional screenshots, code examples and demos work well in this space. You may also link to more resources.
+* To book a class, click on Book a Class link on nav bar, find your desired class and click on Book Now button!
+![](schedule_ss.png)
 
-_For more examples, please refer to the [Documentation](https://example.com)_
+ * You can review your profile and your scheduled classes in Profile tab, just remember to be already signed up and loged in. 
+![](profile_ss.png)
 
 
 
@@ -81,7 +85,9 @@ Distributed under the MIT License. See `LICENSE` for more information.
 - Andres Borja - [@GitHub](https://twitter.com/twitter_handle) - email: (mailto:fake_andres@mail.com)
 - Adolfo de Moure - [@GitHub](https://github.com/ANDRESPLASENCIABORJA) - email: (mailto:fake_adolfo@mail.com)
 
-Project Link: [https://github.com/Enrique246/yoga-project](https://github.com/Enrique246/yoga-project)
+Project Link: 
+* GitHub: [https://github.com/Enrique246/yoga-project](https://github.com/Enrique246/yoga-project)
+* Heroku App: [https://damp-dawn-28515.herokuapp.com](https://damp-dawn-28515.herokuapp.com/)
 
 
 
