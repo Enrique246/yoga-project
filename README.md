@@ -87,7 +87,7 @@ Distributed under the MIT License. See `LICENSE` for more information.
 
 Project Link: 
 * GitHub: [https://github.com/Enrique246/yoga-project](https://github.com/Enrique246/yoga-project)
-* Heroku App: [https://damp-dawn-28515.herokuapp.com/] (https://damp-dawn-28515.herokuapp.com/)
+* Heroku App: [https://damp-dawn-28515.herokuapp.com](https://damp-dawn-28515.herokuapp.com/)
 
 
 
